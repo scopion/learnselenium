@@ -44,4 +44,10 @@ cd $HOME
 
 chrome --version
 如果没有任何问题，环境安装完成
+
+##### 使用yum安装chrome
+curl https://intoli.com/install-google-chrome.sh | bash
+
+/opt/google/chrome/google-chrome --version
+Google Chrome 70.0.3538.110
 ```
