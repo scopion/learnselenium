@@ -12,7 +12,9 @@
 ```Shell
 cd $HOME
 curl https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh -O | sh
+sh Anaconda3-5.3.1-Linux-x86_64.sh
 按提示完成安装后再输入以下命令创建Python3.6.6的虚拟环境
+source $HOME/anaconda3/etc/profile.d/conda.sh
 conda create -n learnselenium python=3.6.6
 conda activate learnselenium
 
