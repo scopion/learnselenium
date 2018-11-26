@@ -39,7 +39,8 @@ Chromium 72.0.3616.0
 
 ##### 修改PATH
 vim ~/.bash_profile
-$PATH:$HOME/chrome-linux
+$PATH:$HOME/anaconda3/bin:$HOME/chrome-linux
+source ~/.bash_profile
 cd $HOME
 
 chrome --version
@@ -50,4 +51,17 @@ curl https://intoli.com/install-google-chrome.sh | bash
 
 /opt/google/chrome/google-chrome --version
 Google Chrome 70.0.3538.110
+```
+
+### 环境测试
+```Shell
+打开另一个终端
+cd $HOME
+git clone https://github.com/httpcn/learnselenium.git
+cd learnselenium
+source activate learnselenium
+```
+
+```Python
+python test_selenium.py
 ```
