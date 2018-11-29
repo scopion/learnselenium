@@ -35,7 +35,8 @@ CountryDict = {
             "btn_next":"btnNext",
             "password_id":"password",
             "login_btn_id":"btnLogin",
-            "verification_title":"PayPal"
+            "verification_text":"Not now",
+            "login_success":"PayPal: Summary"
         }
 
 }
