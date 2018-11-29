@@ -4,10 +4,13 @@
 import os
 import time
 import queue
+import urllib3
 import requests
 import multiprocessing
-from login_paypal.single_login_paypal import login_paypal
+from single_login_paypal import login_paypal
 import Config
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def make_task(task_queue):
     # 读取本地的任务文件，放到queue中
